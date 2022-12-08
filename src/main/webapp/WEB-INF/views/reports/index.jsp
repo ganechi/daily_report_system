@@ -3,9 +3,12 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page import="constants.ForwardConst" %>
 
+<c:set var="actTop" value="${ForwardConst.ACT_TOP.getValue()}" />
+<c:set var="actEmp" value="${ForwardConst.ACT_EMP.getValue()}" />
 <c:set var="actRep" value="${ForwardConst.ACT_REP.getValue()}" />
-<c:set var="commIdx" value="${ForwardConst.CMD_INDEX.getValue()}" />
+
 <c:set var="commShow" value="${ForwardConst.CMD_SHOW.getValue()}" />
+<c:set var="commIdx" value="${ForwardConst.CMD_INDEX.getValue()}" />
 <c:set var="commNew" value="${ForwardConst.CMD_NEW.getValue()}" />
 
 <c:import url="/WEB-INF/views/layout/app.jsp">
